@@ -11,10 +11,10 @@ from localstack.utils.numbers import is_number, to_number
 from localstack.utils.objects import recurse_object
 from localstack.utils.strings import short_uid
 
-
 # remove all the code below after removing references in:
 # - invocations.py
 # - graphql_executor.py
+
 
 class VelocityInput(object):
     """Simple class to mimick the behavior of variable '$input' in AWS API Gateway integration
